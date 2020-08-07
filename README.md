@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# reservations table
+|  column | type | options |
+| --- | --- | --- |
+|  start_time | timestamps | null: false |
+|  end_time | timestamps | null: false |
+|  content | text | null: false |
+|  price | integer | null: false |
+|  family_name | string | null: false |
+|  first_name | string | null: false |
+|  phone_number | string | null: false |
+|  email | string | null: false |
